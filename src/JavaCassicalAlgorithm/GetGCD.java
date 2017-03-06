@@ -3,7 +3,7 @@ package JavaCassicalAlgorithm;
 import java.util.Scanner;
 
 /**
- * 题目：输入两个正整数m和n，求其最大公约数和最小公倍数。 
+ * 题目6：输入两个正整数m和n，求其最大公约数和最小公倍数。 
  * 1.程序分析：利用辗除法
  * 「辗转相除法」又叫做「欧几里得算法」
  * 
