@@ -15,12 +15,18 @@ public class TestNumber {
         long input = scanner.nextLong();
         
         charge(input);
+        scanner.close();
         
     }
 
     private static void charge(long input) {
         // TODO Auto-generated method stub
-        
+        String strNum = String.valueOf(input);
+        char[] arrNum=strNum.toCharArray();
+        System.out.println("它是"+arrNum.length+"位数");
+        for (int i= arrNum.length;i>0;i--){
+            System.out.print(arrNum[i-1]);
+        }
     }
 
 }
